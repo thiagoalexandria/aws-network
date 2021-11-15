@@ -7,7 +7,7 @@ Módulo que permite criar Network ACL, associar a uma vpc, subnets. Permiti cria
 
 | Name | Version |
 | ------ | ------ |
-| terraform | ~> 0.14 |
+| terraform | ~> 1.0.0 |
 | aws | ~> 3.0 | 
 
 

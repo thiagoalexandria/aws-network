@@ -5,7 +5,7 @@ resource "aws_vpc" "vpc_main" {
   enable_dns_hostnames  = var.dns_hostnames   #Variável para seber se a VPC tem ou não suporte para nome de host DNS.
   enable_dns_support    = var.dns_support     #Variável para saber se a VPC tem ou não suporte a DNS.
 
-  #tags                  = merge(var.tags, map("Name", format("%s", var.name_vpc)))  #Merge das Tgas e definição do nome da Vpc.
+  
   tags                  = merge(var.tags, 
                           tomap({
                             "Name" = format("%s", var.name_vpc)

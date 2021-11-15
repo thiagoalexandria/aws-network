@@ -7,7 +7,7 @@ Módulo para criar Internet Gateway (IGW) e associar a uma VPC.
 
 | Name | Version |
 | ------ | ------ |
-| terraform | ~> 0.14 |
+| terraform | ~> 1.0.0 |
 | aws | ~> 3.0 | 
 
 

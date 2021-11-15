@@ -6,7 +6,7 @@ Módulo que permite criar VPC do tipo tenancy, com o DNS support e hostnames hab
 
 | Name | Version |
 | ------ | ------ |
-| terraform | ~> 0.14 |
+| terraform | ~> 1.0.0 |
 | aws | ~> 3.0 | 
 
 
