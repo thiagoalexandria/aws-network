@@ -39,7 +39,7 @@ module "create_subnet_db" {
 
   #Config da subnet privada
   cidr_block_private = {
-    us-east-1a = "10.232.80.0/19"
+    us-east-1a = "10.232.80.0/21"
   }
 
   tags = var.tags
