@@ -7,7 +7,7 @@ Módulo que permite criar Subnets Privadas e Públicas.
 
 | Name | Version |
 | ------ | ------ |
-| terraform | ~> 1.0.0 |
+| terraform | ~> 0.14 |
 | aws | ~> 3.0 | 
 
 
